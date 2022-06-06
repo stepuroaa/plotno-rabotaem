@@ -1,0 +1,15 @@
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Add_Folders_test.csproj.AssemblyReference.cache
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Folders_test.exe
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Folders_test.pdb
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\bin\Debug\Folders_test.exe.config
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\bin\Debug\Folders_test.exe
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\bin\Debug\Folders_test.pdb
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Add_Folder.g.cs
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\App.g.cs
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Folders_test_MarkupCompile.cache
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Folders_test_MarkupCompile.lref
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Add_Folder.baml
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Folders_test.g.resources
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Folders_test.Properties.Resources.resources
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Add_Folders_test.csproj.GenerateResource.cache
+C:\Users\Настя\Desktop\вип проект\Folders_test\Folders_test\obj\Debug\Add_Folders_test.csproj.CoreCompileInputs.cache
