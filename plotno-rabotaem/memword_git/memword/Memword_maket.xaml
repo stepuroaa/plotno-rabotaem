@@ -1,0 +1,45 @@
+﻿<Window x:Name="Memword" x:Class="memword.Memword_maket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:memword"
+        mc:Ignorable="d"
+        Title="Мемворд | учись легко!" Height="450" Width="800">
+    <Grid >
+        <DockPanel Background="#FFEAD3E7">
+            <Rectangle Fill="#FFCBA1C7" DockPanel.Dock="Left" Width="200" HorizontalAlignment="Left"/>
+        </DockPanel>
+        <StackPanel x:Name="menu_SP" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="200">
+            <TextBlock Text="Мемворд" Margin="0,10,0,0" FontSize="30" TextAlignment="Center" Width="200" Height="35" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Mandy's Sketch"/>
+            <Button x:Name="B_Settings" Content="Настройки" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="41" FontFamily="Times New Roman" FontSize="18" Cursor="Hand" Style="{StaticResource Menu_Button}" Click="B_Settings_Click" />
+            <Button Content="Помощь" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="41"  FontFamily="Times New Roman" FontSize="18" Cursor="Hand" Style="{StaticResource Menu_Button}"/>
+            <Button Content="О нас" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="200" Height="41" FontFamily="Times New Roman" FontSize="18" Cursor="Hand" Style="{StaticResource Menu_Button}"/>
+        </StackPanel>
+        <StackPanel x:Name="folder_SP" HorizontalAlignment="Stretch" Margin="200,0,0,0" VerticalAlignment="Stretch">
+        </StackPanel>
+        <Button x:Name="plus_BT" HorizontalAlignment="Right" Margin="0,0,22,21" VerticalAlignment="Bottom" Width="80" Height="80" BorderBrush="{x:Null}"  Cursor="Hand" Click="plus_BT_Click">
+            <Image Source="pics\add.png"></Image>
+        </Button>
+        <StackPanel x:Name="settings_SP" Margin="200,0,0,0" VerticalAlignment="Stretch" Background="#FFEAD3E7">
+            <Button HorizontalAlignment="Right" Margin="0,15,15,0" Height="75" Width="75" Click="Button_Click">
+                <Image Source="pics\exit.png"></Image>
+            </Button>
+
+        </StackPanel>
+
+        <StackPanel x:Name="namefolder_SP" VerticalAlignment="Center" HorizontalAlignment="Center" Width="350" Height="200" Background="#FFE4C6E1">
+            <Button x:Name="close_BT" HorizontalAlignment="Right" VerticalAlignment="Top" Height="50" Width="50" Click="close_BT_Click" >
+                <Image Source="pics\exit.png"></Image>
+            </Button>
+            <TextBlock Text="Введите название будущей папки:" Height="35" HorizontalAlignment="Center" FontFamily="Times New Roman" FontSize="22"/>
+            <TextBox x:Name="namefolder_TB" Height="35" Width="150" TextWrapping="Wrap" Text=" " FontSize="15" FontFamily="Times New Roman" HorizontalAlignment="Center"/>
+            <Button x:Name="addfolder_BT" Height="50" Width="50" Click="addfolder_BT_Click">
+                <Image Source="pics\tick.png"></Image>
+            </Button>
+        </StackPanel>
+
+
+    </Grid>
+
+</Window>
